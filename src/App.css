@@ -1,7 +1,9 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
+    height: 100%;
 }
+
 .square {
     background: #fff;
     border: 1px solid #999;
@@ -15,10 +17,15 @@ body {
     padding: 0;
     text-align: center;
     width: 85px;
-  }
+}
   
   .square:focus {
     outline: none;
+  }
+
+  .square:hover {
+    background: rgba(102, 92, 107, 0.055);
+    border: 1px solid rgb(34, 31, 31);
   }
 
   .game {
@@ -26,7 +33,5 @@ body {
     flex-direction: row;
     justify-content: center;
     position: relative;
-    -webkit-transform: translateY(50%);
-    -ms-transform: translateY(50%);
-    transform: translateY(50%);
+    margin-top: 20%;
   }
