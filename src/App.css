@@ -1,0 +1,32 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 85px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 85px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+
+  .game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+  }
